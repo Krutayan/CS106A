@@ -1,0 +1,57 @@
+"""
+This is a worked example. This code is starter code; you should edit and run it to 
+solve the problem. You can click the blue show solution button on the left to see 
+the answer if you get too stuck or want to check your work!
+"""
+
+from karel.stanfordkarel import *
+
+def main():
+   while beepers_present():
+    move_end()
+    follow_straight_trail()
+
+def move_end():
+    while beepers_present():
+        pick_beeper()
+        move()
+
+def follow_straight_trail():
+    step_back() # karel take one step back
+    if left_is_clear():
+        turn_left()
+    else:
+        turn_right()
+        move()
+    move()
+    if beepers_present():
+        move_round() # to ensure if beeper present remain in that position
+    else:
+        turn_around()
+        move()
+        move()
+
+def step_back():
+    turn_around()
+    move()
+    turn_around()
+
+def turn_around():
+    for i in range (2):
+        turn_left()
+
+def turn_right():
+    for i in range(3):
+        turn_left()
+
+def move_round():
+    for i in range (4):
+        turn_left()
+
+
+
+
+# There is no need to edit code beyond this point
+
+if __name__ == '__main__':
+    main()
