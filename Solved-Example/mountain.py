@@ -18,7 +18,7 @@ Note: The starter code for this example is the solution.
 def main():
     climb_mountain()
     plant_the_flag()
-    desend_mountain()
+    decend_mountain()
     
 
 def climb_mountain():
@@ -34,7 +34,7 @@ def plant_the_flag():
     #put beeper at top
     put_beeper()
 
-def desend_mountain():
+def decend_mountain():
     #pre: karel at (5,5) and facing east
     #post: karel at (9.1) and facing east
     while front_is_clear():
