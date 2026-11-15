@@ -1,0 +1,48 @@
+# 01 – Karel the Robot
+
+My journey into programming started with Karel the Robot.
+
+Before jumping into Python, Karel helped me understand how programming actually works. Instead of writing complicated code, I learned to guide a robot through a world using simple commands, loops, conditions, and functions.
+
+This folder contains my Karel programs and solutions from the beginning of my CS106A learning journey.
+
+## What is Karel?
+
+Karel is a small robot that lives in a grid-based world. It can move around, turn, and interact with beepers.
+
+Although its commands are simple, solving problems with Karel requires logical thinking and careful planning. Every movement matters, and even a small mistake can change the outcome.
+
+## What I Learned
+
+Working with Karel helped me understand:
+
+- **Control Flow:** Using loops and conditional statements to control Karel's movements.
+- **Decomposition:** Breaking larger problems into smaller functions.
+- **Problem Solving:** Finding logical ways to complete a task.
+- **Algorithm Design:** Thinking through a solution before writing code.
+- **Edge Cases:** Making programs work in different world configurations.
+- **Code Reusability:** Writing helper functions instead of repeating instructions.
+
+## Programs in This Folder
+
+This folder contains my Karel assignments and practice programs, including:
+
+| Program | What It Does |
+|---|---|
+| Zebra Crossing | Creates a zebra-crossing pattern using beepers. |
+| Roomba | Moves through the world and collects beepers. |
+| Stone Mason | Repairs columns of beepers across the world. |
+| Other Karel Exercises | Practice programs exploring movement, loops, and logical conditions. |
+
+## My Experience
+
+Karel was one of my first experiences with algorithmic thinking.
+
+Some problems initially looked simple, but solving them for different world sizes made me think more carefully about my approach. I gradually learned that writing a working program is not just about making it run once, but about understanding why it works.
+
+These exercises helped me build the foundation I needed before moving on to Python.
+
+---
+
+*This is where my programming journey began, one movement at a time.* 🤖
+
