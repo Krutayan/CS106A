@@ -1,52 +1,68 @@
-# CS106A: Programming Methodology (Stanford University)
+# CS106A – Programming Methodology
 
-Welcome to my repository containing solutions and independent projects built while working through Stanford University's foundational computer science curriculum, **CS106A** (via Code in Place). 
+Welcome to my CS106A repository!
 
-As an incoming 1st-year BTech student, I am using this rigorous curriculum to master algorithmic problem-solving, structural design patterns, and clean code habits before starting my formal college courses.
+I'm Krutayan Pandey, a first-year B.Tech student learning programming and building my foundation in computer science. This repository is where I keep my solutions, practice programs, and projects as I work through Stanford's CS106A curriculum.
 
----
+I started this repository to keep my code organized, track my progress, and revisit concepts whenever I need them. Over time, it has become a place where I can see how my problem-solving skills and programming knowledge are improving.
 
-## 🛠️ Core Engineering Concepts Covered
+## What You'll Find Here
 
-* **Problem Decomposition:** Breaking down large procedural problems into small, single-responsibility helper functions.
-* **Algorithmic Optimization ($O(N)$):** Reducing logical redundancies to write fast, memory-efficient code.
-* **Edge-Case Matrix Scaling:** Designing flexible logic that dynamically scales to survive variable grid sizes and extreme environments without crashing.
-* **Rigorous Documentation:** Implementing and enforcing strict `Pre-conditions` and `Post-conditions` to maintain predictable program behavior.
+This repository contains different parts of my learning journey:
 
----
+- **Assignments:** Solutions to programming assignments, including Karel problems that helped me understand programming logic.
+- **Intro to Python:** Programs and exercises covering the basics of Python.
+- **Solved Examples:** Practice problems and examples that helped me understand different concepts.
+- **Own Projects:** Small projects and experiments that I work on outside regular assignments.
 
-## 📂 Repository Structure
+## Some Programs I'm Proud Of
 
-The code is strictly categorized into explicit domains to maintain clean portfolio architecture:
+### Zebra Crossing
+A Karel program that creates a zebra crossing pattern in the world. Working on this helped me think about patterns, loops, and how to make an algorithm work across different world sizes.
 
-| Folder | Purpose | Highlights / Key Files |
-| :--- | :--- | :--- |
-| **`Assignments/`** | Milestone programs requiring complex, end-to-end algorithmic logic from scratch. | `Zebra_Crossing.py` (Scales dynamically to any $(5a+2) \times N$ matrix), `Rhoombha.py`, `zig_zag.py`, `Stone_Mason_Karel.py` |
-| **`Solved_Examples/`** | A sandbox containing guided textbook exercises, lecture warmups, and core syntax checks. | `piles.py`, `put_n_beepers.py`, `puzzle_peice.py` |
-| **`Own_Projects/`** | Custom baseline experiments written entirely outside class parameters to test logical boundaries. | `Write_Letter_L.py` |
-| **`Intro_to_Python/`** | Transition phase code from the Karel simulator to native, terminal-based Python logic. | `hello_name.py`, control flow modules, variables, and console applications. |
+### Roomba
+A Karel-based cleaning program that moves around the world and collects beepers. This assignment helped me understand systematic movement, helper functions, and breaking a problem into smaller steps.
 
----
+### Stone Mason Karel
+A program that repairs columns of beepers across Karel's world. It was a good exercise in writing reusable functions and using loops effectively.
 
-## 🚀 Key Project Spotlight
+## What I'm Learning
 
-### 🧩 1. Scalable Zebra Crossing Algorithm (`Zebra_Crossing.py`)
-* **Problem:** Program a robot to paint alternating stripes on a grid of unknown dimensions.
-* **Solution:** Instead of hardcoding steps, I calculated the structural matrix cycle pattern mathematically. The program handles any world with dimensions $(5a + 2) \times N$ (where $a \geq 0$ and $N \geq 1$) flawlessly by linking physical boundary triggers directly to conditional loops.
+Through these assignments and exercises, I'm learning:
 
-### 🧹 2. Roomba Floor Sweeper (`Rhoombha.py`)
-* **Problem:** Clean an unpredictable room layout of all random debris (beepers).
-* **Solution:** Optimized the cleaning patterns by cleaning column by column. Used advanced decomposition to ensure no empty moves were made, maintaining a highly efficient spatial navigation runtime.
+- How to break large problems into smaller ones
+- How loops and conditionals work together
+- How to write and use functions effectively
+- How to think about edge cases
+- How to write cleaner and more readable code
+- How to approach problems logically instead of jumping straight into coding
 
----
+## My Learning Journey
 
-## 📈 My Learning Roadmap
+I'm gradually moving from basic programming concepts to more advanced topics.
 
-- [x] **Phase 1:** The Karel Environment (Control flow, Loops, Conditional sensors, Decomposition)
-- [x] **Phase 2:** Transition to Pure Python (Console logic, Terminal Input/Output)
-- [ ] **Phase 3:** Data Structures (Lists, Slicing, Dictionary mapping)
-- [ ] **Phase 4:** File I/O & Text Parsing (.txt and .csv data streams)
-- [ ] **Phase 5:** Object-Oriented Programming (OOP, Custom Classes, Blueprints)
+- [x] Karel the Robot
+- [x] Python Fundamentals
+- [ ] Lists and Data Structures
+- [ ] File Handling
+- [ ] Object-Oriented Programming
+- [ ] More Independent Projects
 
----
-*“Good code is its own documentation. A clean repository structure reflects a clear engineering mind.”* **Connect with me as I progress through my BTech journey!**
+This list will keep changing as I learn new things and complete more programs.
+
+## Why This Repository Exists
+
+For me, this repository isn't just about uploading assignment solutions. It's about documenting my learning, understanding how different concepts fit together, and becoming a better programmer one problem at a time.
+
+Some solutions may not be perfect, and that's completely fine. I want this repository to reflect my actual progress, including the things I learn along the way.
+
+## About Me
+
+**Krutayan Pandey**  
+First-Year B.Tech Student | Learning Python & Computer Science
+
+- GitHub: [@Krutayan](https://github.com/Krutayan)
+- Repository: [CS106A](https://github.com/Krutayan/CS106A)
+
+Thanks for stopping by!
+
